@@ -13,11 +13,11 @@
 
 <body>
     <div class="container">
-        <header class="header">
+        <header>
             <p>ヘッダー</p>
         </header>
 
-        <body>
+        <section>
             <form action="" method="">
                 <div class="form-group">
                     <label for="email">EMAIL</label>
@@ -25,7 +25,7 @@
                 </div>
                 <button type="submit" class="btn btn-dark mb-2">登録</button>
             </form>
-        </body>
+        </section>
 
         <footer>
             <p>フッター</p>
