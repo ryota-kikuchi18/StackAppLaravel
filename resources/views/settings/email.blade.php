@@ -9,14 +9,18 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
         <header>
-            <p>ヘッダー</p>
+            <p class="h2 text-center">設定</p>
         </header>
-
+    </div>
+    <hr>
+    <div class="container">
         <section>
             <form action="" method="">
                 <div class="form-group">
@@ -26,9 +30,11 @@
                 <button type="submit" class="btn btn-dark mb-2">登録</button>
             </form>
         </section>
-
+    </div>
+    <hr>
+    <div class="container">
         <footer>
-            <p>フッター</p>
+            <p>フッターです〜</p>
         </footer>
     </div>
 </body>
