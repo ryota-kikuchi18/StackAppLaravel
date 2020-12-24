@@ -34,7 +34,7 @@
     <hr>
     <div class="container">
         <footer>
-            <p>フッターです〜</p>
+            <p>&copy;mokumoku</p>
         </footer>
     </div>
 </body>
