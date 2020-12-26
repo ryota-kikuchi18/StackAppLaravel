@@ -1,7 +1,22 @@
 header {
     margin-top: 20px;
+    color: #333333;
 }
 
-.container {
+footer {
+    text-align: center;
+}
+
+.container-fluid {
     font-family: "M PLUS Rounded 1c", sans-serif;
+    color: #333333;
+    width: 90%;
+}
+
+.box1 {
+    background-color: #ffccff;
+}
+
+.box2 {
+    background-color: #99ccff;
 }
