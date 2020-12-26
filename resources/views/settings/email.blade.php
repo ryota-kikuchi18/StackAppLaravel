@@ -22,10 +22,23 @@
     <hr>
     <div class="container-fluid">
         <div class="row">
-            <div class="box1 col-2">
-                <aside>
-                    <p>サイトバー</p>
-                </aside>
+            <div class="box1 col-md-2 d-none d-md-block  sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            基本設定
+                        </li>
+                        <li class="nav-item">
+                            通知設定
+                        </li>
+                        <li class="nav-item">
+                            Twitter連携
+                        </li>
+                        <li class="nav-item logout">
+                            ログアウト
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="box2 col-10">
                 <section>

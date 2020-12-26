@@ -13,10 +13,23 @@ footer {
     width: 98%;
 }
 
+/* 分かりやすくするため */
 .box1 {
-    background-color: #ffccff;
+    background-color: #ffddff;
+}
+/* 分かりやすくするため */
+.box2 {
+    background-color: #ccffff;
 }
 
-.box2 {
-    background-color: #99ccff;
+/* サイドバー */
+.nav-item {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+/* ログアウトの */
+.logout {
+    margin-top: 400px;
 }
