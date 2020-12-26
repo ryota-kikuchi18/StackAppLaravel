@@ -22,20 +22,20 @@
     <hr>
     <div class="container-fluid">
         <div class="row">
-            <div class="box1 col-md-2 d-none d-md-block  sidebar">
+            <div class="box1 col-md-2 d-none d-md-block sidebar">
                 <div class="sidebar-sticky">
-                    <ul class="nav flex-column">
+                    <ul class="nav flex-column ">
                         <li class="nav-item">
-                            基本設定
+                            <a class="nav-link text-dark" href="#">基本設定</a>
                         </li>
                         <li class="nav-item">
-                            通知設定
+                            <a class="nav-link text-dark" href="#">通知設定</a>
                         </li>
                         <li class="nav-item">
-                            Twitter連携
+                            <a class="nav-link text-dark" href="#">Twitter連携</a>
                         </li>
                         <li class="nav-item logout">
-                            ログアウト
+                            <a class="nav-link text-dark" href="#">ログアウト</a>
                         </li>
                     </ul>
                 </div>
@@ -43,15 +43,21 @@
             <div class="box2 col-10">
                 <section>
                     <form action="" method="">
-                        <div class="form-group">
-                            <label for="email">EMAIL</label>
-                            <input class="form-control" type="email" name="email" id="email" placeholder="new EMAIL">
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label label" for="email">EMAIL</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" type="email" name="email" id="email"
+                                    placeholder="new EMAIL">
+                            </div>
                         </div>
-                        <button type="submit" class="btn btn-dark mb-2">登録</button>
+                        <div class="col text-center">
+                            <button type="submit" class="btn btn-dark">登録</button>
+                        </div>
                     </form>
                 </section>
             </div>
         </div>
+    </div>
     </div>
     <hr>
     <div class="container-fluid">
