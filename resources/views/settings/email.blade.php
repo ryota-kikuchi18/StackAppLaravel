@@ -14,13 +14,13 @@
 </head>
 
 <body>
-    <div class=".container-fluid">
+    <div class="container-fluid">
         <header>
             <p class="h2 text-center">設定</p>
         </header>
     </div>
     <hr>
-    <div class=".container-fluid">
+    <div class="container-fluid">
         <div class="row">
             <div class="box1 col-2">
                 <aside>
@@ -41,7 +41,7 @@
         </div>
     </div>
     <hr>
-    <div class=".container-fluid">
+    <div class="container-fluid">
         <footer>
             <p>&copy;mokumoku</p>
         </footer>
