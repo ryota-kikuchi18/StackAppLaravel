@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/settings/email', function () {
+    return view('settings/email');
+});

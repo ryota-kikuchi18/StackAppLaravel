@@ -1,0 +1,58 @@
+header {
+    margin-top: 20px;
+    color: #333333;
+}
+
+footer {
+    text-align: center;
+}
+
+.container-fluid {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: #333333;
+    width: 98%;
+}
+
+/* .box1 {
+    background-color: #ffeeff;
+}
+.box2 {
+    background-color: #ddffff;
+} */
+
+/* サイドバー */
+.nav-link {
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 10px;
+}
+
+/* ログアウトのリンク */
+.logout {
+    margin-top: 350px;
+}
+
+/* サイドバーとコンテンツを区切る線 */
+.sidebar {
+    border-right: solid 1px #222222;
+}
+
+/* 横線 */
+hr {
+    border-top: 1px solid #222222;
+    margin: 0 0;
+}
+
+/* formのinput */
+form .form-control {
+    width: 80%;
+    margin: 80px 20px 0 20px;
+}
+
+/* formのlabel */
+form .label {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    margin-top: 70px;
+}
