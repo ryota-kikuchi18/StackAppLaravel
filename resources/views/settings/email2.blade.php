@@ -1,7 +1,11 @@
 {{-- これは確認用ファイルです --}}
+{{-- 宣言 --}}
 @extends('layouts.settings')
 
 @section('title', 'タイトル')
+
+    {{-- 読み込む --}}
+    @include('layouts.header')
 
 @section('headerTitle', 'ヘッダーのタイトル')
 
