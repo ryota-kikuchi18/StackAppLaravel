@@ -4,9 +4,6 @@
 
 @section('title', 'タイトル')
 
-    {{-- 読み込む --}}
-    @include('layouts.header')
-
 @section('headerTitle', 'ヘッダーのタイトル')
 
 @section('content')
@@ -22,3 +19,5 @@
         </div>
     </form>
 @endsection
+
+@include('layouts.header')
