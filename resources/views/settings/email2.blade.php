@@ -1,10 +1,10 @@
 {{-- これは確認用ファイルです --}}
-{{-- 宣言 --}}
+
 @extends('layouts.settings')
 
-@section('title', 'タイトル')
+@section('title', 'StackApp')
 
-@section('headerTitle', 'ヘッダーのタイトル')
+@section('headerTitle', '設定')
 
 @section('content')
     <form action="" method="">
@@ -20,4 +20,4 @@
     </form>
 @endsection
 
-@include('layouts.header')
+@include('layouts.head')
