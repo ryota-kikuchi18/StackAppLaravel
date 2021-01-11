@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('/settings/email', function () {
     return view('settings/email');
 });
+
+// ↓確認用
+Route::get('/settings/email2', function () {
+    return view('settings/email2');
+});
